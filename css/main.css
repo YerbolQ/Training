@@ -1,0 +1,50 @@
+/*Sidebar*/
+
+.sidebar {
+    padding: 50px 15px 60px 55px;
+    width: 252px;
+    height: 1024px;
+    background-color: rgb(219, 219, 219);
+    flex-direction: column;
+    display:inline-flex;
+}
+
+.sidebar-logo {
+    margin-bottom: 57px;
+}
+
+/*Nav*/
+.nav-title {
+    margin-bottom: 44px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav-list {
+    font-size: 16px;
+}
+.nav-list li {
+    margin-bottom: 27px;
+}
+.nav-list a {
+    transition: color 0.2s ease-in;
+}
+.nav-list a:hover {
+    color: #fd2e24;
+}
+.nav-list img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 26px;
+    height: auto;
+    object-fit: none;
+}
+.help {
+    margin-top: auto;
+    font-size: 16px;
+}
+.help img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+}
