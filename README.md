@@ -1,2 +1,2 @@
-# Trening
+# Training
  Верстка
