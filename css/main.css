@@ -3,7 +3,7 @@
 .sidebar {
     padding: 50px 15px 60px 55px;
     width: 252px;
-    height: 1024px;
+    min-height: 100vh;
     background-color: rgb(219, 219, 219);
     flex-direction: column;
     display:inline-flex;
@@ -42,9 +42,44 @@
 .help {
     margin-top: auto;
     font-size: 16px;
+    font-weight: 700;
 }
 .help img {
     display: inline-block;
     vertical-align: middle;
     margin-right: 16px;
+}
+
+/* main*/
+.main {
+    width: 1100px;
+    
+}
+
+/*Search*/
+.search {
+    font-family: 'Circular Std';
+    width: 490px;
+    height: 35px;
+}
+.search-label {
+    height: 100%;
+    display: flex;
+    
+}
+.search-icon {
+    font-family: 'Circular Std';
+    
+}
+.search-input {
+     padding: 0 17px;
+     flex-grow: 1;
+     font-size: 17px;
+     font-weight: 500;
+     
+
+}
+.search-input::placeholder {
+    font-family: 'Circular Std';
+    color: rgba(0, 0, 0, 0.2);
 }
