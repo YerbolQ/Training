@@ -2,7 +2,7 @@
 
 .sidebar {
     padding: 50px 15px 60px 55px;
-    width: 252px;
+    width: 270px;
     min-height: 100vh;
     background-color: rgb(219, 219, 219);
     flex-direction: column;
@@ -82,4 +82,9 @@
 .search-input::placeholder {
     font-family: 'Circular Std';
     color: rgba(0, 0, 0, 0.2);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
